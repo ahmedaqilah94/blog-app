@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-wark: "Work Sans", sans-serif;
+  --font-source: "Source Serif 4", sans-serif;
+}
