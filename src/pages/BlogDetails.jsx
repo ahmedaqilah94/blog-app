@@ -5,7 +5,6 @@ import { cardsData } from "../data/cardsData.js";
 function BlogDetails() {
   const { id } = useParams();
   const card = cardsData.find((card) => card.id == id);
-  console.log(card);
 
   return (
     <div className="w-full flex justify-center">
