@@ -75,7 +75,7 @@ function BlogDetails() {
           “ Traveling can expose you to new environments and potential health
           risks, so it's crucial to take precautions to stay safe and healthy. ”
         </p>
-        <img src="../public/travel.svg" alt="travel-img" />
+        <img src={`${import.meta.env.BASE_URL}travel.svg`} alt="travel-img" />
 
         <div className="flex flex-col items-center justify-center bg-[#E8E8EA] h-25 text-[#696A75] rounded-xl mt-8">
           <p className="text-[14px]">Advertisement</p>

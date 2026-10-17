@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BlogCard from "../components/BlogCard";
-import { cardsData } from "../data/cardsData";
+import { cardsData } from "../data/cardsData.js";
 
 function Home({ searchTerm = "" }) {
   const [visibleCount, setVisibleCount] = useState(9);
