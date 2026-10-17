@@ -8,7 +8,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blog-app">
       <Routes>
         <Route path="/" element={<Header onSearch={setSearchTerm} />}>
           <Route index element={<Home searchTerm={searchTerm} />} />
